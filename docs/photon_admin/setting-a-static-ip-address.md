@@ -23,7 +23,7 @@ To create a network configuration file that systemd-networkd uses to establish a
 
 Change the new file's mode bits by running the `chmod` command:
 
-    chmod 644 10-static-en.network
+    chmod 644 /etc/systemd/network/10-static-en.network
 
 Apply the configuration by running the following command:
 
